@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="form1.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="box">
+            <form action="/enviar" method="post">
+                <fieldset>
+                    <legend>Contate-nos</legend>
+                    <br>
+
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="labelInput">Nome Completo</label>
+                    </div>
+                    <br><br>
+
+                    <div class="inputBox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                        <label for="email" class="labelInput">E-mail</label>
+                    </div>
+                    <br><br>
+
+                    <div class="inputBox">
+                        <input type="text" name="telefone" id="telefone" class="inputUser" required>
+                        <label for="telefone" class="labelInput">Telefone</label>
+                    </div>
+                    <br><br>
+                    
+                    <div class="contato">
+                        <p>Contato para:</p>
+                        <input type="radio" id="opcao1" name="opcoes" value="1" required>
+                        <label for="aquisicao">Aquisição</label>
+                        <br>
+
+                        <input type="radio" id="opcao2" name="opcoes" value="1" required>
+                        <label for="locacao">Locação</label>
+                        <br>
+                        <br>
+                    </div>
+                    
+                    <div class="interesse">
+                        <p>Interesse em:</p>
+                        <input type="checkbox" id="radiologia" name="radiologia" value="rx" required>
+                        <label for="radiologia">Radiologia</label>
+                        <br>
+
+                        <input type="checkbox" id="ultrassonografia" name="ultrassonografia" value="ul" required>
+                        <label for="ultrassonografia">Ultrassonografia</label>
+                        <br>
+
+                        <input type="checkbox" id="odontologia" name="odontologia" value="od" required>
+                        <label for="odontologia">Odontologia</label>
+                        <br>
+
+                        <input type="checkbox" id="veterinaria" name="veterinaria" value="vet" required>
+                        <label for="veterinaria">Veterinária</label>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                    
+                    <div class="inputBox">
+                        <input type="textarea" name="mensagem" id="mensagem" class="inputUser" required>
+                        <label for="mensagem" class="labelInput">Mensagem</label>
+                    </div>
+                    <br><br>
+
+                    <div class="btn-submit-form">
+                        <button type="submit">Enviar</button> 
+                    </div>
+                    
+                    
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
